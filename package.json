@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+        "build-css": "tailwindcss build src/styles.css -o docs/styles.css"
     },
     "repository": {
         "type": "git",
@@ -14,9 +14,9 @@
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/ahhmerrr/big/issues"
+        "url": "https://github.com/ahhmerrr/site/issues"
     },
-    "homepage": "https://github.com/ahhmerrr/big#readme",
+    "homepage": "https://github.com/ahhmerrr/site#readme",
     "dependencies": {
         "tailwindcss": "^3.1.8"
     }
