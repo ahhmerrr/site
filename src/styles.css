@@ -12,11 +12,15 @@
     }
 
     ::-webkit-scrollbar-track {
-        @apply bg-green-200;
+        background: transparent;
     }
 
     ::-webkit-scrollbar-thumb {
         @apply bg-gray-700;
+    }
+
+    body {
+        overflow: overlay;
     }
 }
 
