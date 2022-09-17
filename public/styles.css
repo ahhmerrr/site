@@ -603,8 +603,20 @@ video {
   height: 8rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-32 {
   width: 8rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .items-center {
@@ -613,6 +625,15 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.border-8 {
+  border-width: 8px;
+}
+
+.border-pink-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(131 24 67 / var(--tw-border-opacity));
 }
 
 .bg-green-200 {
