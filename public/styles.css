@@ -410,6 +410,30 @@ video {
   height: auto;
 }
 
+*::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+
+*::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -551,8 +575,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {
@@ -561,6 +597,14 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .items-center {
@@ -581,17 +625,13 @@ video {
   line-height: 2rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
 .font-light {
   font-weight: 300;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .font-bold {
@@ -609,4 +649,24 @@ video {
 
 .font-nanum {
   font-family: "Nanum Myeongjo", serif;
+}
+
+@media (min-width: 640px) {
+  .sm\:h-48 {
+    height: 12rem;
+  }
+
+  .sm\:w-48 {
+    width: 12rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
 }
