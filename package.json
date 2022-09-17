@@ -1,23 +1,23 @@
 {
-  "name": "big",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahhmerrr/big.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ahhmerrr/big/issues"
-  },
-  "homepage": "https://github.com/ahhmerrr/big#readme",
-  "dependencies": {
-    "tailwindcss": "^3.1.8"
-  }
+    "name": "big",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ahhmerrr/big.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ahhmerrr/big/issues"
+    },
+    "homepage": "https://github.com/ahhmerrr/big#readme",
+    "dependencies": {
+        "tailwindcss": "^3.1.8"
+    }
 }
