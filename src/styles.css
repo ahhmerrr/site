@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .font-roboto-mono {
+        font-family: "Roboto Mono", monospace;
+    }
+    .font-nanum {
+        font-family: "Nanum Myeongjo", serif;
+    }
+}
