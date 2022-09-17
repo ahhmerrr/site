@@ -713,8 +713,8 @@ body {
   line-height: 2rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -764,6 +764,10 @@ body {
   font-family: "Nanum Myeongjo", serif;
 }
 
+.font-cormorant {
+  font-family: "Cormorant Garamond", serif;
+}
+
 .hover\:text-purple-800:hover {
   --tw-text-opacity: 1;
   color: rgb(107 33 168 / var(--tw-text-opacity));
@@ -783,8 +787,8 @@ body {
     line-height: 2.25rem;
   }
 
-  .sm\:text-7xl {
-    font-size: 4.5rem;
+  .sm\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
   }
 
