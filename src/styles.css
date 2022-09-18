@@ -13,7 +13,7 @@
     }
 
     ::-webkit-scrollbar-track {
-        background: transparent;
+        @apply bg-stone-400;
     }
 
     ::-webkit-scrollbar-thumb {
@@ -21,7 +21,7 @@
     }
 
     body {
-        overflow: overlay;
+        /* overflow: overlay; */
     }
 }
 
