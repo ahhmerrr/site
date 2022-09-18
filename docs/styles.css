@@ -601,6 +601,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
