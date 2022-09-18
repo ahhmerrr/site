@@ -19,10 +19,6 @@
     ::-webkit-scrollbar-thumb {
         @apply bg-gray-700;
     }
-
-    body {
-        /* overflow: overlay; */
-    }
 }
 
 @layer components {
