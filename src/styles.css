@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        overflow-x: hidden;
+    }
+
     *::selection {
         @apply text-gray-700;
         @apply bg-stone-200;
@@ -22,6 +26,18 @@
 }
 
 @layer components {
+    .cloud-drifting {
+        animation: drift 30s linear infinite;
+    }
+
+    @keyframes drift {
+        from {
+            transform: translateX(-192px);
+        }
+        to {
+            transform: translateX(100vw);
+        }
+    }
 }
 
 @layer utilities {
