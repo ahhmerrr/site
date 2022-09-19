@@ -31,11 +31,11 @@
     }
 
     .flower-spinning-1 {
-        animation: spinCounter 20s linear infinite;
+        animation: spinCounter 15s linear infinite;
     }
 
     .flower-spinning-2 {
-        animation: spinClock 20s linear infinite;
+        animation: spinClock 15s linear infinite;
     }
 
     @keyframes drift {

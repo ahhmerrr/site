@@ -589,13 +589,13 @@ html {
 }
 
 .flower-spinning-1 {
-  -webkit-animation: spinCounter 20s linear infinite;
-          animation: spinCounter 20s linear infinite;
+  -webkit-animation: spinCounter 15s linear infinite;
+          animation: spinCounter 15s linear infinite;
 }
 
 .flower-spinning-2 {
-  -webkit-animation: spinClock 20s linear infinite;
-          animation: spinClock 20s linear infinite;
+  -webkit-animation: spinClock 15s linear infinite;
+          animation: spinClock 15s linear infinite;
 }
 
 @-webkit-keyframes drift {
