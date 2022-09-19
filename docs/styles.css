@@ -588,6 +588,16 @@ html {
           animation: drift 30s linear infinite;
 }
 
+.flower-spinning-1 {
+  -webkit-animation: spinCounter 20s linear infinite;
+          animation: spinCounter 20s linear infinite;
+}
+
+.flower-spinning-2 {
+  -webkit-animation: spinClock 20s linear infinite;
+          animation: spinClock 20s linear infinite;
+}
+
 @-webkit-keyframes drift {
   from {
     transform: translateX(-192px);
@@ -608,8 +618,80 @@ html {
   }
 }
 
+@-webkit-keyframes bounce {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes spinClock {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinClock {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spinCounter {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes spinCounter {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
 }
 
 .left-\[-192\] {
@@ -670,12 +752,12 @@ html {
   display: grid;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
 .h-screen {
   height: 100vh;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .h-full {
@@ -688,6 +770,10 @@ html {
   height: fit-content;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -698,6 +784,10 @@ html {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .snap-y {
@@ -869,8 +959,16 @@ html {
     height: 12rem;
   }
 
+  .sm\:h-32 {
+    height: 8rem;
+  }
+
   .sm\:w-48 {
     width: 12rem;
+  }
+
+  .sm\:w-32 {
+    width: 8rem;
   }
 
   .sm\:text-3xl {

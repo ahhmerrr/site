@@ -30,12 +30,52 @@
         animation: drift 30s linear infinite;
     }
 
+    .flower-spinning-1 {
+        animation: spinCounter 20s linear infinite;
+    }
+
+    .flower-spinning-2 {
+        animation: spinClock 20s linear infinite;
+    }
+
     @keyframes drift {
         from {
             transform: translateX(-192px);
         }
         to {
             transform: translateX(100vw);
+        }
+    }
+
+    @keyframes bounce {
+        from {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(45deg);
+        }
+
+        to {
+            transform: rotate(0deg);
+        }
+    }
+
+    @keyframes spinClock {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spinCounter {
+        from {
+            transform: rotate(360deg);
+        }
+        to {
+            transform: rotate(0deg);
         }
     }
 }
